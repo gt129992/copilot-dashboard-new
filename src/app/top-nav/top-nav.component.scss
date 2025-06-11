@@ -1,0 +1,83 @@
+.top-navbar {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  background: #2B3A44; // Soft black
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding: 0 24px;
+  position: relative;
+}
+.logo {
+  height: 32px;
+  margin-right: 16px;
+}
+// .app-title {
+//   font-size: 1.5rem;
+//   font-weight: 600;
+//   color: #fff; // White text
+// }
+.menu-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #e6e8eb; // Light gray for menu icon
+  margin-right: 16px;
+  margin-left: -14px;
+}
+.top-nav-icons {
+   fill: #e6e8eb;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  z-index: 2;
+  mat-icon{
+    color: #e6e8eb;
+  }
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.picker-anchor {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  right: 40px; /* adjust to align under calendar icon */
+  top: 48px; /* adjust to appear below the navbar */
+  z-index: 10;
+}
+.picker-anchor .mat-date-range-input-separator,
+.picker-anchor .mat-date-range-input-mirror {
+  color: transparent !important;
+  background: transparent !important;
+  border: none !important;
+}
+::ng-deep .picker-anchor .mat-date-range-input-separator {
+  color: transparent !important;
+  background: transparent !important;
+  border: none !important;
+}
+::ng-deep .mat-calendar-body-selected,
+::ng-deep .mat-calendar-body-range-start,
+::ng-deep .mat-calendar-body-range-end {
+  background-color: #00EEAE !important;
+  color: #2B3A44 !important;
+  border-radius: 50% !important;
+}
+// ::ng-deep .mat-calendar-body-in-range,
+// ::ng-deep .mat-calendar-body-range-background {
+//   background-color: rgba(0, 238, 174, 0.15) !important;
+// }
+
+
+

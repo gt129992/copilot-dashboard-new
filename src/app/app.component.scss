@@ -1,0 +1,71 @@
+@import '@angular/material/prebuilt-themes/azure-blue.css';
+
+.mat-sidenav-container {
+  height: 100vh;
+}
+
+.mat-sidenav {
+  background: var(--sidebar-bg);
+  color: var(--sidebar-text);
+  width: 250px;
+}
+
+.mat-list-item, .mat-list-item .mat-line {
+  color: var(--sidebar-text) !important;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 16px;
+}
+
+.top-navbar {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding: 0 24px;
+}
+
+.app-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2B3A44;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content-layout {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.side-nav-wrapper {
+  width: 220px;
+  min-width: 220px;
+  transition: width 0.2s cubic-bezier(0.4,0,0.2,1);
+  background: #C2C6D2;
+  color: #00EEAE;
+  max-height: 145vh;
+  min-height: 114vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-nav-wrapper.collapsed {
+  width: 64px;
+  min-width: 64px;
+}
+
+.main-content {
+  flex: 1 1 auto;
+  padding: 24px;
+  background: #f7f8fa;
+  min-height: 100vh;
+}

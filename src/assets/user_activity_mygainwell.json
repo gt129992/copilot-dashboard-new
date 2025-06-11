@@ -1,0 +1,40 @@
+{
+    "user_activity": [
+        {
+        "name": "Ross Rao",
+        "email": "RossRao@xyz.com",
+        "user_id": "raosrip",
+        "team": "MES-Copilot-Users",
+        "generated_date": "2025-04-16T07:32:53-05:00",
+        "activity_date": [
+            {
+            "date": "2025-05-22"
+            },
+            {
+            "date": "2025-05-23"
+            },
+            {
+            "date": "2025-04-20"
+            },
+            {
+            "date": "2025-04-21"
+            }
+        ]        
+        },
+        {
+        "name": "Jessy stroup",
+        "email": "jessyStroup@xyz.com",
+        "user_id": "stroup10", 
+        "team": "MES-Copilot-Users",
+        "generated_date": "2025-04-16T07:32:53-05:00",
+        "activity_date": [
+            {
+            "date": "2025-05-19"
+            },
+            {
+            "date": "2025-10-20"
+            }
+        ]    
+        }
+    ]
+}

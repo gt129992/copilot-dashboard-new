@@ -1,0 +1,52 @@
+<app-organization-cards [selectedDateRange]="selectedDateRange" [organizationName]="orgName" [orgCards]="orgCardsData"></app-organization-cards>
+<div *ngIf="dataSource && dataSource.filteredData.length > 0" class="mat-elevation-z8">
+  <div style="margin-bottom: 16px;">
+    <mat-form-field appearance="outline">
+      <mat-label>Search</mat-label>
+      <input matInput (keyup)="applyFilter($event)" placeholder="Search users">
+    </mat-form-field>
+  </div>
+  <table mat-table [dataSource]="dataSource" matSort class="mat-table">
+    <ng-container matColumnDef="user">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>User</th>
+      <td mat-cell *matCellDef="let seat">
+        <span style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+          <span>{{ seat.assignee?.login || '__' }}</span>
+          <mat-icon 
+            style="font-size: 18px; color: #00EEAE; margin-left: auto; cursor: pointer;"
+            (click)="openUserActivity(seat)"
+            >visibility</mat-icon>
+        </span>
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="created_at">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Create Date</th>
+      <td mat-cell *matCellDef="let seat">{{ seat.created_at ? (seat.created_at | date:'dd-MMM-yyyy') : '__' }}</td>
+    </ng-container>
+    <ng-container matColumnDef="updated_at">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Updated Date</th>
+      <td mat-cell *matCellDef="let seat">{{ seat.updated_at ? (seat.updated_at | date:'dd-MMM-yyyy') : '__' }}</td>
+    </ng-container>
+    <ng-container matColumnDef="last_activity_at">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Last Activity Date</th>
+      <td mat-cell *matCellDef="let seat">{{ seat.last_activity_at ? (seat.last_activity_at | date:'dd-MMM-yyyy') : '__' }}</td>
+    </ng-container>
+    <ng-container matColumnDef="last_activity_editor">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Last Activity Editor</th>
+      <td mat-cell *matCellDef="let seat">{{ seat.last_activity_editor || '__' }}</td>
+    </ng-container>
+    <ng-container matColumnDef="pending_cancellation_date">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Pending Cancellation</th>
+      <td mat-cell *matCellDef="let seat">{{ seat.pending_cancellation_date ? (seat.pending_cancellation_date | date:'dd-MMM-yyyy') : '__' }}</td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tbody>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </tbody>
+  </table>
+  <mat-paginator [pageSizeOptions]="[5, 10, 25]" showFirstLastButtons></mat-paginator>
+</div>
+<div *ngIf="!dataSource || dataSource.filteredData.length === 0" class="no-data-wrapper" style="text-align:center; padding: 32px 0;">
+  <img src="assets/img/no-data.png" alt="No Data" style="max-width:120px; display:block; margin:120px auto 12px auto;" />
+  <div style="color: #888; font-size: 1.1rem;">No Data Found for Selected Date Range</div>
+</div>

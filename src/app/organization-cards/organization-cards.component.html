@@ -1,0 +1,23 @@
+
+<div class="org-container">
+  <div class="org-header-row">
+  <div class="org-header">
+    <h2>Organization: <span class="org-name">{{ organizationName }}</span></h2>
+    <div class="org-subtitle">Copilot seat data at organization level</div>
+  </div>
+  <div class="org-date-range" *ngIf="selectedDateRange" matTooltip="Click on calendar icon above to select date range">
+    <mat-icon class="date-range-icon">date_range</mat-icon>
+    <span>
+      {{ selectedDateRange.start | date:'dd MMM yyyy' }} - {{ selectedDateRange.end | date:'dd MMM yyyy' }}
+    </span>
+  </div>
+</div>
+<div class="org-cards">
+    <div class="org-card" *ngFor="let card of orgCards">
+        <div class="org-card-title">{{ card.title }}</div>
+        <div class="org-card-value">{{ card.value }}</div>
+        <div class="org-card-desc">{{ card.desc }}</div>
+    </div>
+</div>
+</div>
+

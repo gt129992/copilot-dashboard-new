@@ -1,0 +1,65 @@
+<app-organization-cards [selectedDateRange]="selectedDateRange" [orgCards]="orgCardsData" [organizationName]="orgName"></app-organization-cards>
+
+<div class="charts-row" *ngIf="!isMesOrPharmacy">
+  <div>
+    <div class="chart-container">
+      <div class="chart-container-title">
+        Number of Lines Suggested vs Accepted
+      </div>
+      <canvas #barChart id="org-summary-chart"></canvas>
+    </div>
+  </div>
+  <div>
+    <div class="chart-container">
+      <div class="chart-container-title">Engaged Users</div>
+      <canvas #lineChart id="org-users-chart"></canvas>
+    </div>
+  </div>
+</div>
+<div *ngIf="isMesOrPharmacy">
+  <mat-slide-toggle class="chart-toggle" *ngIf="showChartMetricsToggle" [(ngModel)]="showChatCardsText" (change)="onShowChatCardsTextChange()">Show Copilot Chat metrics</mat-slide-toggle>
+  <div *ngIf="showChatCardsText" class="mes-pharmacy-charts-row">
+    <div class="chart-container mes-pharmacy-charts" style="height: auto; margin-top: 32px; width: 50%;">
+      <div class="chart-container-title">Copilot Chat Metrics</div>
+      <ng-container *ngIf="hasAnyValue(totalChats); else noChatData">
+        <canvas #chatChart id="org-chat-chart" style="min-height: 320px;"></canvas>
+      </ng-container>
+      <ng-template #noChatData>
+        <div class="no-data-message" style="text-align:center; padding:32px 0; color:#222; font-size:1.1rem;">
+          <img src="assets/img/no-data-chart.png" alt="No Data" style="max-width:65px; display:block; margin:0 auto 12px auto;" />
+          No data found for the selected range.
+        </div>
+      </ng-template>
+    </div>
+    <div class="chart-container mes-pharmacy-charts" style="height: auto; margin-top: 32px; width: 50%;">
+      <div class="chart-container-title">Copilot Chat Engaged Users</div>
+      <ng-container *ngIf="hasAnyValue(chatEngagedUsersData); else noEngagedUsersData">
+        <canvas #chatEngagedUsersChart id="org-chat-engaged-users-chart" style="min-height: 320px;"></canvas>
+      </ng-container>
+      <ng-template #noEngagedUsersData>
+        <div class="no-data-message" style="text-align:center; padding:32px 0; color:#222; font-size:1.1rem;">
+          <img src="assets/img/no-data-chart.png" alt="No Data" style="max-width:65px; display:block; margin:0 auto 12px auto;" />
+          No data found for the selected range.
+        </div>
+      </ng-template>
+    </div>
+  </div>
+  <div class="mes-pharmacy-charts-row">
+    <div class="chart-container mes-pharmacy-charts" style="height: auto; margin-top: 32px; width: 50%;" #barLangChartContainer>
+      <!-- Bar chart for language metrics will be dynamically inserted here -->
+    </div>
+    <div class="chart-container mes-pharmacy-charts" style="height: auto; margin-top: 32px; width: 50%;" #lineLangChartContainer>
+      <!-- Line chart for language metrics will be dynamically inserted here -->
+    </div>
+  </div>
+  <div *ngIf="selectedLanguages.length > 0" class="language-controls-row" style="margin-bottom: 16px; max-width: 600px; display: flex; align-items: center; gap: 24px;">
+    <mat-form-field appearance="fill" style="width: 300px;">
+      <mat-label>Languages</mat-label>
+      <mat-select multiple [(value)]="selectedLanguages" (selectionChange)="createLanguageComparisonCharts()">
+        <mat-option *ngFor="let lang of allLanguages" [value]="lang">{{ lang }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-checkbox [(ngModel)]="showAcceptances" (change)="createLanguageComparisonCharts()">Show Acceptances</mat-checkbox>
+    <mat-checkbox [(ngModel)]="showSuggestions" (change)="createLanguageComparisonCharts()">Show Suggestions</mat-checkbox>
+  </div>
+</div>

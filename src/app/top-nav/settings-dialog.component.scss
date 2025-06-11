@@ -1,0 +1,25 @@
+.settings-dialog-panel .mat-dialog-container {
+  border-radius: 12px;
+  padding: 0;
+}
+[mat-dialog-title] {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 24px 24px 0 24px;
+}
+[mat-dialog-content] {
+  padding: 24px;
+}
+[mat-dialog-actions] {
+  padding: 16px 24px 24px 24px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+::ng-deep .settings-dialog-panel .mat-mdc-button:not(:disabled) {
+    color: #009681;
+}
+::ng-deep .settings-dialog-panel .mat-mdc-unelevated-button:not(:disabled) {
+    color: white;
+    background-color: #009681;
+}

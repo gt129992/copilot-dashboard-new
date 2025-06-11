@@ -1,0 +1,70 @@
+@use '@angular/material' as mat;
+
+:root {
+  --sidebar-bg: #2B3A44;
+  --sidebar-text: #00EEAE;
+  @include mat.list-overrides((
+    active-indicator-color: #00EEAE,
+    list-item-label-text-color: var(--sidebar-text),
+    list-item-selected-container-color: transparent,
+    list-item-container-color: transparent,
+  ));
+}
+.nav-icon {
+  color: #009681 !important;
+     margin-right: 15px;
+    margin-bottom: -5px;
+    padding-top: 24px;
+}
+.mat-nav-list {
+  background: var(--sidebar-bg) !important;
+  color: var(--sidebar-text) !important;
+}
+.mat-list-item, .mat-list-item .mat-line {
+  color: var(--sidebar-text) !important;
+}
+// Ensure active/selected item color is applied for Angular Material MDC list
+::ng-deep .mat-list-item.active,
+::ng-deep .submenu .mat-list-item.active,
+::ng-deep .mat-mdc-list-item--activated,
+::ng-deep .mat-mdc-list-item--selected {
+  color: #00EEAE !important;
+  font-weight: 600 !important;
+  // Override MDC variable for selected label color
+  --mdc-list-list-item-selected-label-text-color: #00EEAE !important;
+  --mdc-list-item-label-text-color: #00EEAE !important;
+}
+::ng-deep .mat-mdc-list-item--activated .mdc-list-item__primary-text,
+::ng-deep .mat-mdc-list-item--selected .mdc-list-item__primary-text {
+  color: #00EEAE !important;
+  font-weight: 600 !important;
+}
+::ng-deep .mat-mdc-list-base .mdc-list-item__content {
+    pointer-events: auto;
+    padding-bottom: 20px;
+}
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+  justify-content: space-between;
+}
+.dropdown-arrow {
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.submenu {
+  // padding-left: 24px;
+  background: #e6e8eb;
+  text-align: center;
+}
+// Remove border-radius and add rectangular hover effect
+::ng-deep .mat-list-item,
+::ng-deep .mat-mdc-list-item {
+  border-radius: 0 !important;
+}
+.active {
+  color: #009681 !important;
+}

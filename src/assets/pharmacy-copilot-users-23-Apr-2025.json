@@ -1,0 +1,1916 @@
+[
+    {
+        "date": "2025-04-01",
+        "copilot_ide_chat": {
+            "total_engaged_users": 0
+        },
+        "total_active_users": 3,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 1,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 1,
+                                    "total_code_suggestions": 10,
+                                    "total_code_lines_accepted": 1,
+                                    "total_code_lines_suggested": 109
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 1
+                        }
+                    ],
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "yaml",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 8,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 8
+                                }
+                            ],
+                            "is_custom_model": false
+                        }
+                    ],
+                    "total_engaged_users": 0
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "yaml",
+                    "total_engaged_users": 0
+                }
+            ],
+            "total_engaged_users": 1
+        }
+    },
+    {
+        "date": "2025-04-02",
+        "copilot_ide_chat": {
+            "total_engaged_users": 0
+        },
+        "total_active_users": 4,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 2,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 2,
+                                    "total_code_acceptances": 16,
+                                    "total_code_suggestions": 35,
+                                    "total_code_lines_accepted": 16,
+                                    "total_code_lines_suggested": 46
+                                },
+                                {
+                                    "name": "sql",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 4,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 4
+                                },
+                                {
+                                    "name": "unknown",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 1,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 3
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 2
+                        }
+                    ],
+                    "total_engaged_users": 2
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 2
+                },
+                {
+                    "name": "sql",
+                    "total_engaged_users": 0
+                },
+                {
+                    "name": "unknown",
+                    "total_engaged_users": 0
+                }
+            ],
+            "total_engaged_users": 2
+        }
+    },
+    {
+        "date": "2025-04-03",
+        "copilot_ide_chat": {
+            "total_engaged_users": 0
+        },
+        "total_active_users": 3,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 3,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 2,
+                                    "total_code_acceptances": 10,
+                                    "total_code_suggestions": 19,
+                                    "total_code_lines_accepted": 10,
+                                    "total_code_lines_suggested": 26
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 2
+                        }
+                    ],
+                    "total_engaged_users": 2
+                },
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "yaml",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 1,
+                                    "total_code_suggestions": 6,
+                                    "total_code_lines_accepted": 1,
+                                    "total_code_lines_suggested": 6
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 1
+                        }
+                    ],
+                    "total_engaged_users": 1
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 2
+                },
+                {
+                    "name": "yaml",
+                    "total_engaged_users": 1
+                }
+            ],
+            "total_engaged_users": 3
+        }
+    },
+    {
+        "date": "2025-04-04",
+        "copilot_ide_chat": {
+            "total_engaged_users": 0
+        },
+        "total_active_users": 3,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 2,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 1,
+                                    "total_code_suggestions": 11,
+                                    "total_code_lines_accepted": 1,
+                                    "total_code_lines_suggested": 23
+                                },
+                                {
+                                    "name": "sql",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 2,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 2
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 1
+                        }
+                    ],
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "yaml",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 2,
+                                    "total_code_suggestions": 3,
+                                    "total_code_lines_accepted": 2,
+                                    "total_code_lines_suggested": 3
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 1
+                        }
+                    ],
+                    "total_engaged_users": 1
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "sql",
+                    "total_engaged_users": 0
+                },
+                {
+                    "name": "yaml",
+                    "total_engaged_users": 1
+                }
+            ],
+            "total_engaged_users": 2
+        }
+    },
+    {
+        "date": "2025-04-07",
+        "copilot_ide_chat": {
+            "total_engaged_users": 0
+        },
+        "total_active_users": 3,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 2,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 2,
+                                    "total_code_acceptances": 4,
+                                    "total_code_suggestions": 29,
+                                    "total_code_lines_accepted": 4,
+                                    "total_code_lines_suggested": 64
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 2
+                        }
+                    ],
+                    "total_engaged_users": 2
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 2
+                }
+            ],
+            "total_engaged_users": 2
+        }
+    },
+    {
+        "date": "2025-04-08",
+        "copilot_ide_chat": {
+            "total_engaged_users": 0
+        },
+        "total_active_users": 4,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 3,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 3,
+                                    "total_code_acceptances": 18,
+                                    "total_code_suggestions": 53,
+                                    "total_code_lines_accepted": 35,
+                                    "total_code_lines_suggested": 99
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 3
+                        }
+                    ],
+                    "total_engaged_users": 3
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 3
+                }
+            ],
+            "total_engaged_users": 3
+        }
+    },
+    {
+        "date": "2025-04-09",
+        "copilot_ide_chat": {
+            "total_engaged_users": 0
+        },
+        "total_active_users": 2,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 1,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 5,
+                                    "total_code_suggestions": 25,
+                                    "total_code_lines_accepted": 80,
+                                    "total_code_lines_suggested": 103
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 1
+                        }
+                    ],
+                    "total_engaged_users": 1
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 1
+                }
+            ],
+            "total_engaged_users": 1
+        }
+    },
+    {
+        "date": "2025-04-10",
+        "copilot_ide_chat": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "total_chats": 111,
+                            "is_custom_model": false,
+                            "total_engaged_users": 3,
+                            "total_chat_copy_events": 78,
+                            "total_chat_insertion_events": 0
+                        }
+                    ],
+                    "total_engaged_users": 3
+                }
+            ],
+            "total_engaged_users": 3
+        },
+        "total_active_users": 10,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 9,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "razor",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 4,
+                                    "total_code_suggestions": 9,
+                                    "total_code_lines_accepted": 10,
+                                    "total_code_lines_suggested": 21
+                                },
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 4,
+                                    "total_code_acceptances": 26,
+                                    "total_code_suggestions": 63,
+                                    "total_code_lines_accepted": 101,
+                                    "total_code_lines_suggested": 199
+                                },
+                                {
+                                    "name": "unknown",
+                                    "total_engaged_users": 2,
+                                    "total_code_acceptances": 5,
+                                    "total_code_suggestions": 23,
+                                    "total_code_lines_accepted": 18,
+                                    "total_code_lines_suggested": 70
+                                },
+                                {
+                                    "name": "json",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 1,
+                                    "total_code_suggestions": 3,
+                                    "total_code_lines_accepted": 1,
+                                    "total_code_lines_suggested": 4
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 5
+                        }
+                    ],
+                    "total_engaged_users": 5
+                },
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "html",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 2,
+                                    "total_code_suggestions": 12,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 22
+                                },
+                                {
+                                    "name": "typescript",
+                                    "total_engaged_users": 2,
+                                    "total_code_acceptances": 14,
+                                    "total_code_suggestions": 49,
+                                    "total_code_lines_accepted": 9,
+                                    "total_code_lines_suggested": 51
+                                },
+                                {
+                                    "name": "css",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 3,
+                                    "total_code_suggestions": 13,
+                                    "total_code_lines_accepted": 2,
+                                    "total_code_lines_suggested": 33
+                                },
+                                {
+                                    "name": "python",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 2,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 2
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 3
+                        }
+                    ],
+                    "total_engaged_users": 3
+                }
+            ],
+            "languages": [
+                {
+                    "name": "html",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 4
+                },
+                {
+                    "name": "unknown",
+                    "total_engaged_users": 2
+                },
+                {
+                    "name": "typescript",
+                    "total_engaged_users": 2
+                },
+                {
+                    "name": "css",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "json",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "razor",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "python",
+                    "total_engaged_users": 0
+                }
+            ],
+            "total_engaged_users": 8
+        }
+    },
+    {
+        "date": "2025-04-11",
+        "copilot_ide_chat": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "total_chats": 156,
+                            "is_custom_model": false,
+                            "total_engaged_users": 4,
+                            "total_chat_copy_events": 74,
+                            "total_chat_insertion_events": 0
+                        }
+                    ],
+                    "total_engaged_users": 4
+                }
+            ],
+            "total_engaged_users": 4
+        },
+        "total_active_users": 20,
+        "copilot_dotcom_chat": {
+            "models": [
+                {
+                    "name": "default",
+                    "total_chats": 16,
+                    "is_custom_model": false,
+                    "total_engaged_users": 1
+                }
+            ],
+            "total_engaged_users": 1
+        },
+        "total_engaged_users": 12,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 5,
+                                    "total_code_acceptances": 24,
+                                    "total_code_suggestions": 112,
+                                    "total_code_lines_accepted": 77,
+                                    "total_code_lines_suggested": 346
+                                },
+                                {
+                                    "name": "razor",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 3,
+                                    "total_code_suggestions": 24,
+                                    "total_code_lines_accepted": 6,
+                                    "total_code_lines_suggested": 122
+                                },
+                                {
+                                    "name": "unknown",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 3,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 6
+                                },
+                                {
+                                    "name": "json",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 2,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 21
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 6
+                        }
+                    ],
+                    "total_engaged_users": 6
+                },
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "typescript",
+                                    "total_engaged_users": 4,
+                                    "total_code_acceptances": 17,
+                                    "total_code_suggestions": 75,
+                                    "total_code_lines_accepted": 14,
+                                    "total_code_lines_suggested": 176
+                                },
+                                {
+                                    "name": "python",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 11,
+                                    "total_code_suggestions": 54,
+                                    "total_code_lines_accepted": 10,
+                                    "total_code_lines_suggested": 62
+                                },
+                                {
+                                    "name": "html",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 2,
+                                    "total_code_suggestions": 10,
+                                    "total_code_lines_accepted": 2,
+                                    "total_code_lines_suggested": 62
+                                },
+                                {
+                                    "name": "json",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 1,
+                                    "total_code_suggestions": 6,
+                                    "total_code_lines_accepted": 14,
+                                    "total_code_lines_suggested": 99
+                                },
+                                {
+                                    "name": "scss",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 5,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 17
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 5
+                        }
+                    ],
+                    "total_engaged_users": 5
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 5
+                },
+                {
+                    "name": "typescript",
+                    "total_engaged_users": 4
+                },
+                {
+                    "name": "python",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "html",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "razor",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "scss",
+                    "total_engaged_users": 0
+                },
+                {
+                    "name": "json",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "unknown",
+                    "total_engaged_users": 0
+                }
+            ],
+            "total_engaged_users": 11
+        }
+    },
+    {
+        "date": "2025-04-12",
+        "copilot_ide_chat": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "total_chats": 57,
+                            "is_custom_model": false,
+                            "total_engaged_users": 2,
+                            "total_chat_copy_events": 30,
+                            "total_chat_insertion_events": 0
+                        }
+                    ],
+                    "total_engaged_users": 2
+                }
+            ],
+            "total_engaged_users": 2
+        },
+        "total_active_users": 3,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 3,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 3,
+                                    "total_code_suggestions": 22,
+                                    "total_code_lines_accepted": 6,
+                                    "total_code_lines_suggested": 47
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 1
+                        }
+                    ],
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "typescript",
+                                    "total_engaged_users": 2,
+                                    "total_code_acceptances": 4,
+                                    "total_code_suggestions": 39,
+                                    "total_code_lines_accepted": 9,
+                                    "total_code_lines_suggested": 100
+                                },
+                                {
+                                    "name": "scss",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 1,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 1
+                                },
+                                {
+                                    "name": "html",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 2,
+                                    "total_code_suggestions": 4,
+                                    "total_code_lines_accepted": 1,
+                                    "total_code_lines_suggested": 7
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 2
+                        }
+                    ],
+                    "total_engaged_users": 2
+                }
+            ],
+            "languages": [
+                {
+                    "name": "typescript",
+                    "total_engaged_users": 2
+                },
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "html",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "scss",
+                    "total_engaged_users": 0
+                }
+            ],
+            "total_engaged_users": 3
+        }
+    },
+    {
+        "date": "2025-04-14",
+        "copilot_ide_chat": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "total_chats": 45,
+                            "is_custom_model": false,
+                            "total_engaged_users": 1,
+                            "total_chat_copy_events": 0,
+                            "total_chat_insertion_events": 0
+                        }
+                    ],
+                    "total_engaged_users": 1
+                }
+            ],
+            "total_engaged_users": 1
+        },
+        "total_active_users": 3,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 1,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "typescript",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 15,
+                                    "total_code_suggestions": 39,
+                                    "total_code_lines_accepted": 12,
+                                    "total_code_lines_suggested": 73
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 1
+                        }
+                    ],
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 1,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 22
+                                }
+                            ],
+                            "is_custom_model": false
+                        }
+                    ],
+                    "total_engaged_users": 0
+                }
+            ],
+            "languages": [
+                {
+                    "name": "typescript",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 0
+                }
+            ],
+            "total_engaged_users": 1
+        }
+    },
+    {
+        "date": "2025-04-15",
+        "copilot_ide_chat": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "total_chats": 167,
+                            "is_custom_model": false,
+                            "total_engaged_users": 3,
+                            "total_chat_copy_events": 102,
+                            "total_chat_insertion_events": 0
+                        }
+                    ],
+                    "total_engaged_users": 3
+                }
+            ],
+            "total_engaged_users": 3
+        },
+        "total_active_users": 16,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 10,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "python",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 9,
+                                    "total_code_suggestions": 28,
+                                    "total_code_lines_accepted": 25,
+                                    "total_code_lines_suggested": 90
+                                },
+                                {
+                                    "name": "typescript",
+                                    "total_engaged_users": 4,
+                                    "total_code_acceptances": 48,
+                                    "total_code_suggestions": 196,
+                                    "total_code_lines_accepted": 61,
+                                    "total_code_lines_suggested": 412
+                                },
+                                {
+                                    "name": "html",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 14,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 23
+                                },
+                                {
+                                    "name": "scss",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 1,
+                                    "total_code_suggestions": 5,
+                                    "total_code_lines_accepted": 1,
+                                    "total_code_lines_suggested": 5
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 5
+                        }
+                    ],
+                    "total_engaged_users": 5
+                },
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 5,
+                                    "total_code_acceptances": 20,
+                                    "total_code_suggestions": 128,
+                                    "total_code_lines_accepted": 38,
+                                    "total_code_lines_suggested": 371
+                                },
+                                {
+                                    "name": "unknown",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 1,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 1
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 5
+                        }
+                    ],
+                    "total_engaged_users": 5
+                }
+            ],
+            "languages": [
+                {
+                    "name": "python",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 5
+                },
+                {
+                    "name": "typescript",
+                    "total_engaged_users": 4
+                },
+                {
+                    "name": "html",
+                    "total_engaged_users": 0
+                },
+                {
+                    "name": "unknown",
+                    "total_engaged_users": 0
+                },
+                {
+                    "name": "scss",
+                    "total_engaged_users": 1
+                }
+            ],
+            "total_engaged_users": 10
+        }
+    },
+    {
+        "date": "2025-04-16",
+        "copilot_ide_chat": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "total_chats": 78,
+                            "is_custom_model": false,
+                            "total_engaged_users": 2,
+                            "total_chat_copy_events": 116,
+                            "total_chat_insertion_events": 0
+                        }
+                    ],
+                    "total_engaged_users": 2
+                }
+            ],
+            "total_engaged_users": 2
+        },
+        "total_active_users": 20,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 11,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "typescript",
+                                    "total_engaged_users": 2,
+                                    "total_code_acceptances": 12,
+                                    "total_code_suggestions": 50,
+                                    "total_code_lines_accepted": 10,
+                                    "total_code_lines_suggested": 109
+                                },
+                                {
+                                    "name": "scss",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 3,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 3
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 2
+                        }
+                    ],
+                    "total_engaged_users": 2
+                },
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 9,
+                                    "total_code_acceptances": 53,
+                                    "total_code_suggestions": 166,
+                                    "total_code_lines_accepted": 133,
+                                    "total_code_lines_suggested": 393
+                                },
+                                {
+                                    "name": "unknown",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 2,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 6
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 9
+                        }
+                    ],
+                    "total_engaged_users": 9
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 9
+                },
+                {
+                    "name": "typescript",
+                    "total_engaged_users": 2
+                },
+                {
+                    "name": "scss",
+                    "total_engaged_users": 0
+                },
+                {
+                    "name": "unknown",
+                    "total_engaged_users": 0
+                }
+            ],
+            "total_engaged_users": 11
+        }
+    },
+    {
+        "date": "2025-04-17",
+        "copilot_ide_chat": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "total_chats": 56,
+                            "is_custom_model": false,
+                            "total_engaged_users": 2,
+                            "total_chat_copy_events": 38,
+                            "total_chat_insertion_events": 0
+                        }
+                    ],
+                    "total_engaged_users": 2
+                }
+            ],
+            "total_engaged_users": 2
+        },
+        "total_active_users": 23,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 18,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 14,
+                                    "total_code_acceptances": 70,
+                                    "total_code_suggestions": 203,
+                                    "total_code_lines_accepted": 137,
+                                    "total_code_lines_suggested": 757
+                                },
+                                {
+                                    "name": "xml",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 1,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 1
+                                },
+                                {
+                                    "name": "unknown",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 1,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 1
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 14
+                        }
+                    ],
+                    "total_engaged_users": 14
+                },
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "typescript",
+                                    "total_engaged_users": 2,
+                                    "total_code_acceptances": 11,
+                                    "total_code_suggestions": 49,
+                                    "total_code_lines_accepted": 10,
+                                    "total_code_lines_suggested": 74
+                                },
+                                {
+                                    "name": "html",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 2,
+                                    "total_code_suggestions": 24,
+                                    "total_code_lines_accepted": 2,
+                                    "total_code_lines_suggested": 26
+                                },
+                                {
+                                    "name": "scss",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 14,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 127
+                                },
+                                {
+                                    "name": "python",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 2,
+                                    "total_code_suggestions": 10,
+                                    "total_code_lines_accepted": 1,
+                                    "total_code_lines_suggested": 14
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 3
+                        }
+                    ],
+                    "total_engaged_users": 3
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 14
+                },
+                {
+                    "name": "xml",
+                    "total_engaged_users": 0
+                },
+                {
+                    "name": "typescript",
+                    "total_engaged_users": 2
+                },
+                {
+                    "name": "html",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "python",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "scss",
+                    "total_engaged_users": 0
+                },
+                {
+                    "name": "unknown",
+                    "total_engaged_users": 0
+                }
+            ],
+            "total_engaged_users": 17
+        }
+    },
+    {
+        "date": "2025-04-18",
+        "copilot_ide_chat": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "total_chats": 126,
+                            "is_custom_model": false,
+                            "total_engaged_users": 4,
+                            "total_chat_copy_events": 82,
+                            "total_chat_insertion_events": 0
+                        }
+                    ],
+                    "total_engaged_users": 4
+                }
+            ],
+            "total_engaged_users": 4
+        },
+        "total_active_users": 21,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 13,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "typescript",
+                                    "total_engaged_users": 4,
+                                    "total_code_acceptances": 27,
+                                    "total_code_suggestions": 99,
+                                    "total_code_lines_accepted": 22,
+                                    "total_code_lines_suggested": 135
+                                },
+                                {
+                                    "name": "html",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 1,
+                                    "total_code_suggestions": 4,
+                                    "total_code_lines_accepted": 1,
+                                    "total_code_lines_suggested": 6
+                                },
+                                {
+                                    "name": "yaml",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 2,
+                                    "total_code_suggestions": 4,
+                                    "total_code_lines_accepted": 2,
+                                    "total_code_lines_suggested": 7
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 5
+                        }
+                    ],
+                    "total_engaged_users": 5
+                },
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 7,
+                                    "total_code_acceptances": 29,
+                                    "total_code_suggestions": 80,
+                                    "total_code_lines_accepted": 101,
+                                    "total_code_lines_suggested": 264
+                                },
+                                {
+                                    "name": "json",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 1,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 1
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 7
+                        }
+                    ],
+                    "total_engaged_users": 7
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 7
+                },
+                {
+                    "name": "typescript",
+                    "total_engaged_users": 4
+                },
+                {
+                    "name": "html",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "yaml",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "json",
+                    "total_engaged_users": 0
+                }
+            ],
+            "total_engaged_users": 12
+        }
+    },
+    {
+        "date": "2025-04-19",
+        "copilot_ide_chat": {
+            "total_engaged_users": 0
+        },
+        "total_active_users": 4,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 2,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 2,
+                                    "total_code_acceptances": 6,
+                                    "total_code_suggestions": 48,
+                                    "total_code_lines_accepted": 15,
+                                    "total_code_lines_suggested": 130
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 2
+                        }
+                    ],
+                    "total_engaged_users": 2
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 2
+                }
+            ],
+            "total_engaged_users": 2
+        }
+    },
+    {
+        "date": "2025-04-20",
+        "copilot_ide_chat": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "total_chats": 18,
+                            "is_custom_model": false,
+                            "total_engaged_users": 2,
+                            "total_chat_copy_events": 2,
+                            "total_chat_insertion_events": 0
+                        }
+                    ],
+                    "total_engaged_users": 2
+                }
+            ],
+            "total_engaged_users": 2
+        },
+        "total_active_users": 5,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 5,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "typescript",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 4,
+                                    "total_code_suggestions": 16,
+                                    "total_code_lines_accepted": 22,
+                                    "total_code_lines_suggested": 56
+                                },
+                                {
+                                    "name": "html",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 9,
+                                    "total_code_suggestions": 17,
+                                    "total_code_lines_accepted": 6,
+                                    "total_code_lines_suggested": 25
+                                },
+                                {
+                                    "name": "css",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 5,
+                                    "total_code_suggestions": 13,
+                                    "total_code_lines_accepted": 10,
+                                    "total_code_lines_suggested": 58
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 2
+                        }
+                    ],
+                    "total_engaged_users": 2
+                },
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 2,
+                                    "total_code_acceptances": 5,
+                                    "total_code_suggestions": 10,
+                                    "total_code_lines_accepted": 18,
+                                    "total_code_lines_suggested": 35
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 2
+                        }
+                    ],
+                    "total_engaged_users": 2
+                }
+            ],
+            "languages": [
+                {
+                    "name": "css",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "html",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "typescript",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 2
+                }
+            ],
+            "total_engaged_users": 4
+        }
+    },
+    {
+        "date": "2025-04-21",
+        "copilot_ide_chat": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "total_chats": 96,
+                            "is_custom_model": false,
+                            "total_engaged_users": 5,
+                            "total_chat_copy_events": 30,
+                            "total_chat_insertion_events": 0
+                        }
+                    ],
+                    "total_engaged_users": 5
+                }
+            ],
+            "total_engaged_users": 5
+        },
+        "total_active_users": 20,
+        "copilot_dotcom_chat": {
+            "total_engaged_users": 0
+        },
+        "total_engaged_users": 16,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "typescript",
+                                    "total_engaged_users": 3,
+                                    "total_code_acceptances": 42,
+                                    "total_code_suggestions": 172,
+                                    "total_code_lines_accepted": 35,
+                                    "total_code_lines_suggested": 280
+                                },
+                                {
+                                    "name": "python",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 7,
+                                    "total_code_suggestions": 20,
+                                    "total_code_lines_accepted": 6,
+                                    "total_code_lines_suggested": 46
+                                },
+                                {
+                                    "name": "yaml",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 3,
+                                    "total_code_suggestions": 8,
+                                    "total_code_lines_accepted": 1,
+                                    "total_code_lines_suggested": 15
+                                },
+                                {
+                                    "name": "html",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 18,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 42
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 4
+                        }
+                    ],
+                    "total_engaged_users": 4
+                },
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 10,
+                                    "total_code_acceptances": 63,
+                                    "total_code_suggestions": 195,
+                                    "total_code_lines_accepted": 166,
+                                    "total_code_lines_suggested": 641
+                                },
+                                {
+                                    "name": "json",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 1,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 7
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 10
+                        }
+                    ],
+                    "total_engaged_users": 10
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 10
+                },
+                {
+                    "name": "typescript",
+                    "total_engaged_users": 3
+                },
+                {
+                    "name": "python",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "yaml",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "html",
+                    "total_engaged_users": 0
+                },
+                {
+                    "name": "json",
+                    "total_engaged_users": 0
+                }
+            ],
+            "total_engaged_users": 14
+        }
+    },
+    {
+        "date": "2025-04-22",
+        "copilot_ide_chat": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "total_chats": 51,
+                            "is_custom_model": false,
+                            "total_engaged_users": 4,
+                            "total_chat_copy_events": 7,
+                            "total_chat_insertion_events": 0
+                        }
+                    ],
+                    "total_engaged_users": 4
+                }
+            ],
+            "total_engaged_users": 4
+        },
+        "total_active_users": 24,
+        "copilot_dotcom_chat": {
+            "models": [
+                {
+                    "name": "default",
+                    "total_chats": 2,
+                    "is_custom_model": false,
+                    "total_engaged_users": 1
+                }
+            ],
+            "total_engaged_users": 1
+        },
+        "total_engaged_users": 15,
+        "copilot_dotcom_pull_requests": {
+            "total_engaged_users": 0
+        },
+        "copilot_ide_code_completions": {
+            "editors": [
+                {
+                    "name": "vscode",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "typescript",
+                                    "total_engaged_users": 5,
+                                    "total_code_acceptances": 49,
+                                    "total_code_suggestions": 183,
+                                    "total_code_lines_accepted": 37,
+                                    "total_code_lines_suggested": 502
+                                },
+                                {
+                                    "name": "python",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 14,
+                                    "total_code_suggestions": 21,
+                                    "total_code_lines_accepted": 19,
+                                    "total_code_lines_suggested": 35
+                                },
+                                {
+                                    "name": "html",
+                                    "total_engaged_users": 2,
+                                    "total_code_acceptances": 3,
+                                    "total_code_suggestions": 23,
+                                    "total_code_lines_accepted": 3,
+                                    "total_code_lines_suggested": 67
+                                },
+                                {
+                                    "name": "css",
+                                    "total_engaged_users": 1,
+                                    "total_code_acceptances": 1,
+                                    "total_code_suggestions": 2,
+                                    "total_code_lines_accepted": 1,
+                                    "total_code_lines_suggested": 3
+                                },
+                                {
+                                    "name": "jsonc",
+                                    "total_engaged_users": 0,
+                                    "total_code_acceptances": 0,
+                                    "total_code_suggestions": 1,
+                                    "total_code_lines_accepted": 0,
+                                    "total_code_lines_suggested": 1
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 7
+                        }
+                    ],
+                    "total_engaged_users": 7
+                },
+                {
+                    "name": "VisualStudio",
+                    "models": [
+                        {
+                            "name": "default",
+                            "languages": [
+                                {
+                                    "name": "csharp",
+                                    "total_engaged_users": 7,
+                                    "total_code_acceptances": 77,
+                                    "total_code_suggestions": 148,
+                                    "total_code_lines_accepted": 223,
+                                    "total_code_lines_suggested": 459
+                                }
+                            ],
+                            "is_custom_model": false,
+                            "total_engaged_users": 7
+                        }
+                    ],
+                    "total_engaged_users": 7
+                }
+            ],
+            "languages": [
+                {
+                    "name": "csharp",
+                    "total_engaged_users": 7
+                },
+                {
+                    "name": "html",
+                    "total_engaged_users": 2
+                },
+                {
+                    "name": "typescript",
+                    "total_engaged_users": 5
+                },
+                {
+                    "name": "python",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "css",
+                    "total_engaged_users": 1
+                },
+                {
+                    "name": "jsonc",
+                    "total_engaged_users": 0
+                }
+            ],
+            "total_engaged_users": 14
+        }
+    }
+]

@@ -1,0 +1,275 @@
+/* Style for the charts container */
+.charts-row {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  position: relative; /* Added position relative for absolute positioning of title */
+}
+
+/* Style for individual chart containers */
+.charts-row > div {
+  flex: 1;
+  min-width: 0;
+  max-width: 44%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 400px;
+  position: relative;
+}
+
+/* Style for canvas elements */
+canvas {
+//   width: 100% !important;
+  height: 350px !important;
+}
+
+/* Chart titles */
+.chart-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+/* Chart subtitles */
+.chart-subtitle {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Add a title to the top-left of the container */
+.chart-container-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+  text-align: left;
+  width: 100%;
+}
+
+/* Language comparison container styles */
+#language-comparison-container {
+  background: #f7f9fb;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px 0 rgba(44, 62, 80, 0.06);
+  padding: 32px 24px 24px 24px;
+  margin-top: 24px;
+}
+
+#language-comparison-container > div {
+  margin-bottom: 16px;
+}
+
+#language-comparison-container .chart-title {
+ font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+.mes-pharmacy-charts {
+  .chart-title {
+ font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+  }
+  
+}
+#language-comparison-container canvas {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px 0 rgba(44, 62, 80, 0.04);
+  margin-bottom: 24px;
+}
+
+#language-comparison-container .mat-mdc-form-field {
+  background: #e9ecf3;
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin-right: 24px;
+}
+
+#language-comparison-container .mat-mdc-select-value {
+  color: #2B3A44;
+  font-weight: 500;
+}
+
+#language-comparison-container .mat-mdc-checkbox {
+  margin-right: 24px;
+}
+
+#language-comparison-container .mat-mdc-checkbox label {
+  color: #2B3A44;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#language-comparison-container .mat-mdc-checkbox .mdc-checkbox__background {
+  border-radius: 4px;
+}
+
+#language-comparison-container .mat-mdc-checkbox .mdc-checkbox__native-control:checked ~ .mdc-checkbox__background {
+  background: #00EEAE;
+  border-color: #00EEAE;
+}
+
+#language-comparison-container .mat-mdc-checkbox .mdc-checkbox__checkmark {
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  #language-comparison-container {
+    padding: 16px 4px 12px 4px;
+  }
+  #language-comparison-container .mat-mdc-form-field {
+    margin-right: 8px;
+  }
+  #language-comparison-container .mat-mdc-checkbox {
+    margin-right: 8px;
+  }
+}
+
+/* MES/Pharmacy language-comparison-container styles */
+.mes-pharmacy-charts {
+  flex: 1 1 0;
+  min-width: 0;
+  background: #f7f9fb;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px 0 rgba(44, 62, 80, 0.06);
+  padding: 32px 24px 24px 24px;
+  margin-top: 24px;
+}
+
+.mes-pharmacy-charts > div {
+  margin-bottom: 16px;
+}
+
+.mes-pharmacy-charts .chart-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2B3A44;
+  margin-bottom: 8px;
+}
+
+.mes-pharmacy-charts canvas {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px 0 rgba(44, 62, 80, 0.04);
+  margin-bottom: 24px;
+}
+
+.mes-pharmacy-charts .mat-mdc-form-field {
+  background: #e9ecf3;
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin-right: 24px;
+}
+
+.mes-pharmacy-charts .mat-mdc-select-value {
+  color: #2B3A44;
+  font-weight: 500;
+}
+
+.mes-pharmacy-charts .mat-mdc-checkbox {
+  margin-right: 24px;
+}
+
+.mes-pharmacy-charts .mat-mdc-checkbox label {
+  color: #2B3A44;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.mes-pharmacy-charts .mat-mdc-checkbox .mdc-checkbox__background {
+  border-radius: 4px;
+}
+
+.mes-pharmacy-charts .mat-mdc-checkbox .mdc-checkbox__native-control:checked ~ .mdc-checkbox__background {
+  background: #00EEAE;
+  border-color: #00EEAE;
+}
+
+.mes-pharmacy-charts .mat-mdc-checkbox .mdc-checkbox__checkmark {
+  color: #fff;
+}
+
+.mes-pharmacy-charts-row {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .mes-pharmacy-charts-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .mes-pharmacy-charts {
+    width: 100% !important;
+    padding: 16px 4px 12px 4px;
+    margin-top: 12px;
+  }
+}
+
+/* Language controls row styles */
+.language-controls-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+  max-width: 100% !important;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 900px) {
+  .language-controls-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-top: 16px;
+  }
+}
+
+/* Dropdown color override for transparent background */
+::ng-deep .mat-mdc-select, 
+::ng-deep .mat-mdc-select-trigger, 
+::ng-deep .mat-mdc-select-value, 
+::ng-deep .mat-mdc-select-value-text, 
+::ng-deep .mat-mdc-form-field-infix, 
+::ng-deep .mat-mdc-form-field-flex {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+::ng-deep .mat-mdc-form-field-appearance-fill .mat-mdc-form-field-flex {
+  background-color: transparent !important;
+}
+::ng-deep .mat-mdc-form-field-appearance-fill .mat-mdc-form-field-infix {
+  background-color: transparent !important;
+}
+::ng-deep .mat-mdc-select-panel {
+  background-color: transparent !important;
+}
+::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: transparent !important;
+}
+.chart-toggle {
+  padding-top: 15px;
+  ::ng-deep .mdc-switch__track {
+    height: 23px;
+}
+}
+  ::ng-deep .mat-mdc-slide-toggle .mdc-switch__handle:has(.mdc-switch__icons) {
+    height:  16px !important;
+}

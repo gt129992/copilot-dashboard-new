@@ -1,0 +1,21 @@
+<div class="top-navbar">
+  <button mat-icon-button class="menu-btn" aria-label="Open menu" (click)="menuToggle.emit()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <a [routerLink]="['/copilot-metrics']">
+    <img class="logo" src="assets/img/logo/logo-gainwell.png" alt="Logo" />
+  </a>
+  <div class="top-nav-icons">
+    <button mat-icon-button (click)="openDateRangePicker()">
+      <mat-icon>calendar_today</mat-icon>
+    </button>
+    <button mat-icon-button (click)="openSettingsDialog()">
+      <mat-icon>settings</mat-icon>
+    </button>
+    <mat-date-range-input [rangePicker]="picker" class="picker-anchor" [min]="minDate" [max]="maxDate">
+      <input matStartDate [(ngModel)]="startDate" (ngModelChange)="validateDateRange()" class="visually-hidden">
+      <input matEndDate [(ngModel)]="endDate" (ngModelChange)="validateDateRange()" class="visually-hidden">
+    </mat-date-range-input>
+    <mat-date-range-picker #picker [startAt]="startDate"></mat-date-range-picker>
+  </div>
+</div>

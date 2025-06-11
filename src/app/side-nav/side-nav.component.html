@@ -1,0 +1,16 @@
+<mat-nav-list>
+  <mat-list-item [routerLink]="['/copilot-usage/seat-usage']" routerLinkActive="active" (click)="expandSidebar()">
+    <mat-icon class="nav-icon">table_chart</mat-icon>
+    <span class="nav-label" *ngIf="!collapsed">Seat Usage</span>
+  </mat-list-item>
+  <mat-list-item (click)="expandSidebar(); showMetrics = !showMetrics" class="dropdown-item">
+    <mat-icon class="nav-icon">show_chart</mat-icon>
+    <span class="nav-label" *ngIf="!collapsed">Copilot Metrics</span>
+    <mat-icon class="dropdown-arrow" *ngIf="!collapsed">{{ showMetrics ? 'expand_less' : 'expand_more' }}</mat-icon>
+  </mat-list-item>
+  <div *ngIf="showMetrics && !collapsed" class="submenu">
+    <a mat-list-item [routerLink]="['/copilot-metrics/org']" routerLinkActive="mat-mdc-list-item--activated active" (click)="expandSidebar()">Org Metrics</a>
+    <a mat-list-item [routerLink]="['/copilot-metrics/mes']" routerLinkActive="mat-mdc-list-item--activated active" (click)="expandSidebar()">MES Metrics</a>
+    <a mat-list-item [routerLink]="['/copilot-metrics/pharmacy']" routerLinkActive="mat-mdc-list-item--activated active" (click)="expandSidebar()">Pharmacy Metrics</a>
+  </div>
+</mat-nav-list>
